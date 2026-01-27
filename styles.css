@@ -1,8 +1,4 @@
-/* ========================================
-   GOIKO CLONE - CSS Styles
-   ======================================== */
 
-/* CSS Variables */
 :root {
     --color-black: #000000;
     --color-white: #ffffff;
@@ -18,7 +14,7 @@
     --transition-medium: 0.3s ease;
 }
 
-/* Reset & Base */
+
 *, *::before, *::after {
     margin: 0;
     padding: 0;
@@ -60,9 +56,7 @@ button {
     font-family: inherit;
 }
 
-/* ========================================
-   HEADER
-   ======================================== */
+
 .header {
     position: fixed;
     top: 0;
@@ -124,7 +118,6 @@ button {
     gap: 1rem;
 }
 
-/* Buttons */
 .btn {
     display: inline-flex;
     align-items: center;
@@ -186,9 +179,6 @@ button {
     border-color: var(--color-white);
 }
 
-/* ========================================
-   HERO SECTION
-   ======================================== */
 .hero {
     min-height: 100vh;
     display: flex;
@@ -270,9 +260,6 @@ button {
     50% { transform: translateY(-20px); }
 }
 
-/* ========================================
-   PROMO SECTION
-   ======================================== */
 .promo-section {
     padding: 4rem 2rem;
     max-width: 1200px;
@@ -331,9 +318,6 @@ button {
     transform: translate(3px, -3px);
 }
 
-/* ========================================
-   CARTA SECTION
-   ======================================== */
 .carta-section {
     padding: 2rem 0 4rem;
 }
@@ -424,9 +408,6 @@ button {
     font-size: 0.9rem;
 }
 
-/* ========================================
-   COUNTER SECTION
-   ======================================== */
 .counter-section {
     text-align: center;
     padding: 4rem 2rem;
@@ -458,9 +439,6 @@ button {
     background-clip: text;
 }
 
-/* ========================================
-   FRIENDS SECTION
-   ======================================== */
 .friends-section {
     padding: 6rem 2rem;
     background: linear-gradient(135deg, #1a0505 0%, #3d0f0f 50%, #1a0505 100%);
@@ -505,9 +483,6 @@ button {
     font-size: 1rem;
 }
 
-/* ========================================
-   FOODTRUCK SECTION
-   ======================================== */
 .foodtruck-section {
     position: relative;
     min-height: 500px;
@@ -565,10 +540,6 @@ button {
     margin-bottom: 1.5rem;
     font-size: 1rem;
 }
-
-/* ========================================
-   GOIKOCINA SECTION
-   ======================================== */
 .goikocina-section {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -613,9 +584,6 @@ button {
     transform: scale(1.05);
 }
 
-/* ========================================
-   UNIVERSE SECTION
-   ======================================== */
 .universe-section {
     padding: 4rem 2rem;
     background: linear-gradient(180deg, #0a0a0a 0%, #1a1a1a 100%);
@@ -652,9 +620,6 @@ button {
     line-height: 1.8;
 }
 
-/* ========================================
-   NEWS SECTION
-   ======================================== */
 .news-section {
     padding: 2rem 0 4rem;
     background: var(--color-black);
@@ -742,9 +707,6 @@ button {
     margin-top: 3rem;
 }
 
-/* ========================================
-   FOOTER
-   ======================================== */
 .footer {
     background: var(--color-black);
     padding-top: 4rem;
@@ -881,7 +843,6 @@ button {
     text-decoration: underline;
 }
 
-/* Scroll to top */
 .scroll-top {
     position: fixed;
     bottom: 2rem;
@@ -908,9 +869,6 @@ button {
     opacity: 1;
 }
 
-/* ========================================
-   RESPONSIVE DESIGN
-   ======================================== */
 @media (max-width: 992px) {
     .friends-container {
         grid-template-columns: 1fr;
@@ -1009,12 +967,10 @@ button {
     }
 }
 
-/* Smooth hover effects for all interactive elements */
 a, button {
     -webkit-tap-highlight-color: transparent;
 }
 
-/* Selection color */
 ::selection {
     background: var(--color-red);
     color: var(--color-white);
