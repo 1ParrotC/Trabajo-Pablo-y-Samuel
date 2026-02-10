@@ -12,21 +12,25 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Nunito+Sans:wght@400;600;700;800;900&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="CSS/styles.css">
+    <link rel="stylesheet" href="../css/styles.css">
 </head>
 
 <body>
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
         <div class="container">
-            <a class="navbar-brand" href="index.html">
+            <a class="navbar-brand" href="../index.html">
                 <span class="logo-text">CRUSTÁCEO CRUJIENTE</span>
             </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"><span
-                    class="navbar-toggler-icon"></span></button>
+            <!-- Checkbox Hack -->
+            <input type="checkbox" id="nav-toggle" class="d-none">
+            <label for="nav-toggle" class="navbar-toggler" style="cursor: pointer;">
+                <span class="navbar-toggler-icon"></span>
+            </label>
+
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto align-items-center">
-                    <li class="nav-item"><a class="nav-link" href="index.html">INICIO</a></li>
+                    <li class="nav-item"><a class="nav-link" href="../index.html">INICIO</a></li>
                     <li class="nav-item"><a class="nav-link active" href="menu.html">CARTA</a></li>
                     <li class="nav-item"><a class="nav-link" href="about.html">NOSOTROS</a></li>
                 </ul>
