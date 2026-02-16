@@ -1,3 +1,5 @@
+/* Alinear propiedades no es reducir propiedades. no está tan critico pero hay propiedades que se pueden resolver con bootstrap, como el padding-top del body, o el background del navbar.
+ */
 :root {
     --krusty-red: #d32f2f;
     --krusty-red-dark: #b71c1c;
@@ -25,6 +27,7 @@ body {
     padding-top: 80px;
     overflow-x: hidden;
 }
+
 h1,
 h2,
 h3,
@@ -46,6 +49,7 @@ h4,
 .text-danger {
     color: var(--krusty-red) !important;
 }
+
 .navbar {
     background: rgba(62, 39, 35, 0.95);
     border-bottom: 4px solid var(--krusty-red);
@@ -65,10 +69,12 @@ h4,
     transform: scale(1.1);
     text-shadow: 0 0 10px var(--krusty-yellow);
 }
+
 #nav-toggle:checked~.navbar-collapse {
     display: block !important;
     animation: slideDown 0.3s ease-out;
 }
+
 @media (max-width: 991px) {
     .navbar-collapse {
         background: rgba(0, 0, 0, 0.9);
@@ -76,6 +82,7 @@ h4,
         border-radius: 0 0 10px 10px;
     }
 }
+
 .hero {
     position: relative;
     padding: 100px 0;
@@ -159,6 +166,7 @@ h4,
     flex-direction: column;
     justify-content: space-between;
 }
+
 .btn {
     border-radius: 50px;
     padding: 10px 25px;
@@ -188,6 +196,7 @@ h4,
     color: black;
     border-color: var(--krusty-yellow);
 }
+
 .bubbles {
     position: absolute;
     top: 0;
@@ -263,6 +272,7 @@ h4,
         opacity: 0;
     }
 }
+
 @media (max-width: 768px) {
     .display-1 {
         font-size: 3rem;
